@@ -12,10 +12,10 @@ class DerevoMod(loader.Module):
      a = utils.get_args_raw(message)
      for i in range(int(a)):
         await message.client.send_message(message.to_id, "Видеокарты 🔮")
-        await sleep(1)
+        await sleep(3)
         await message.client.send_message(message.to_id, "Настройки видеокарты")
-        await sleep(1)
+        await sleep(3)
         await message.client.send_message(message.to_id, f'{i+1}')
-        await sleep(1)
+        await sleep(3)
         await message.client.send_message(message.to_id, "Смазать 🛢")
     
